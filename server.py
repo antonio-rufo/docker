@@ -10,7 +10,7 @@ repo = Repo(path=os.getcwd())
 
 @app.route('/')
 def index():
-    return "hello, world!"
+    return "hello, ANZ!"
 
 
 @app.route('/info')
